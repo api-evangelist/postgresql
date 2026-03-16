@@ -1,0 +1,46 @@
+aid: postgresql
+name: PostgreSQL
+description: >-
+  PostgreSQL is a powerful, open-source object-relational database system
+  with over 35 years of active development. It provides advanced SQL
+  compliance, ACID transactions, and extensibility. The PostgreSQL API
+  refers to the client libraries and server interfaces.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Database
+  - SQL
+  - Open Source
+  - Relational Database
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/postgresql/refs/heads/main/apis.yml
+created: '2026-03-16'
+modified: '2026-03-16'
+specificationVersion: '0.19'
+apis:
+  - aid: postgresql:postgresql
+    name: PostgreSQL
+    description: >-
+      Open-source relational database with advanced SQL compliance and
+      extensibility. Client libraries available in many languages.
+    humanURL: https://www.postgresql.org/
+    tags:
+      - Database
+      - SQL
+    properties:
+      - type: Documentation
+        url: https://www.postgresql.org/docs/
+      - type: Getting Started
+        url: https://www.postgresql.org/docs/current/tutorial.html
+common:
+  - type: Website
+    url: https://www.postgresql.org/
+  - type: Documentation
+    url: https://www.postgresql.org/docs/
+  - type: Community
+    url: https://www.postgresql.org/community/
+  - type: GitHub Organization
+    url: https://github.com/postgres/postgres
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
