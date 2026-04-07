@@ -9,9 +9,9 @@ type: Index
 image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 tags:
   - Database
-  - SQL
   - Open Source
   - Relational Database
+  - SQL
 url: >-
   https://raw.githubusercontent.com/api-evangelist/postgresql/refs/heads/main/apis.yml
 created: '2026-03-16'
