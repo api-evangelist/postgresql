@@ -1,30 +1,27 @@
 # PostgreSQL (postgresql)
-PostgreSQL is a powerful, open-source object-relational database system with over 35 years of active development. It provides advanced SQL compliance, ACID transactions, and extensibility. The PostgreSQL API refers to the client libraries and server interfaces.
+PostgreSQL is a powerful, open-source object-relational database system with over 35 years of active development. It provides advanced SQL compliance, ACID transactions, and extensibility. PostgreSQL exposes a binary wire protocol via libpq and language bindings rather than a public HTTP REST API, so there is no canonical OpenAPI specification. HTTP access is typically layered on top via PostgREST, Hasura, or application code.
 
 **URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/postgresql/refs/heads/main/apis.yml)
 
 ## Scope
 
-- **Type:** Index 
-- **Position:** Consuming 
-- **Access:** 3rd-Party 
+- **Type:** Index
 
 ## Tags:
 
- - Database, SQL, Open Source, Relational Database
+ - Database, Open Source, Relational Database, SQL
 
 ## Timestamps
 
-- **Created:** 2026-03-16 
-- **Modified:** 2026-03-16 
+- **Created:** 2026-03-16
+- **Modified:** 2026-04-28
 
 ## APIs
 
 ### PostgreSQL
-Open-source relational database with advanced SQL compliance and extensibility. Client libraries available in many languages.
+Open-source relational database with advanced SQL compliance and extensibility. Client libraries available in many languages. PostgreSQL itself does not provide a REST/HTTP API or OpenAPI specification; access is via the binary wire protocol.
 
 **Human URL:** [https://www.postgresql.org/](https://www.postgresql.org/)
-
 
 #### Tags:
 
