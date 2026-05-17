@@ -32,7 +32,7 @@ apis:
     properties:
       - type: Documentation
         url: https://www.postgresql.org/docs/
-      - type: Getting Started
+      - type: GettingStarted
         url: https://www.postgresql.org/docs/current/tutorial.html
 common:
   - type: Website
@@ -41,7 +41,7 @@ common:
     url: https://www.postgresql.org/docs/
   - type: Community
     url: https://www.postgresql.org/community/
-  - type: GitHub Organization
+  - type: GitHubOrganization
     url: https://github.com/postgres/postgres
 maintainers:
   - FN: Kin Lane
