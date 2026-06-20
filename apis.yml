@@ -8,7 +8,7 @@ description: >-
   HTTP REST API, so there is no canonical OpenAPI specification. HTTP access
   is typically layered on top via PostgREST, Hasura, or application code.
 type: Index
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - Database
   - Open Source
