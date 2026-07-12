@@ -35,6 +35,8 @@ apis:
       - type: GettingStarted
         url: https://www.postgresql.org/docs/current/tutorial.html
 common:
+  - type: DomainSecurity
+    url: security/postgresql-domain-security.yml
   - type: Website
     url: https://www.postgresql.org/
   - type: Documentation
@@ -43,6 +45,8 @@ common:
     url: https://www.postgresql.org/community/
   - type: GitHubOrganization
     url: https://github.com/postgres/postgres
+  - url: https://www.postgresql.org/news.rss
+    type: Blog
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
