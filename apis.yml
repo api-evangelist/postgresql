@@ -23,6 +23,11 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/postgresql.png
 tags:
   - Database
+  - Open-Source
+  - Relational Database
+  - SQL
+tags_raw:
+  - Database
   - Open Source
   - Relational Database
   - SQL
