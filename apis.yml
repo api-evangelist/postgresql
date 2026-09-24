@@ -28,7 +28,7 @@ accessModel:
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/postgresql.png
 tags:
 - Database
-- Open-Source
+- Open Source
 - Relational Database
 - SQL
 tags_raw:
@@ -36,6 +36,7 @@ tags_raw:
 - Open Source
 - Relational Database
 - SQL
+- Open-Source
 url: https://raw.githubusercontent.com/api-evangelist/postgresql/refs/heads/main/apis.yml
 created: '2026-03-16'
 modified: '2026-04-28'
@@ -68,8 +69,6 @@ apis:
     url: https://www.postgresql.org/docs/current/protocol.html
   - type: Specification
     url: https://www.postgresql.org/docs/current/protocol-message-formats.html
-  - url: graphql/postgres-graphql.md
-    type: GraphQL
 - aid: postgresql:libpq
   name: libpq C Client Library
   description: libpq is the official C application programmer's interface to PostgreSQL and the underlying library used by most other PostgreSQL client interfaces. It provides connection management, query execution, prepared statements, COPY support, asynchronous operations, and SSL/TLS.

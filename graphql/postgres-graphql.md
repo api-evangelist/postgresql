@@ -1,1 +1,0 @@
-# PostgreSQL GraphQL API
