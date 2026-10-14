@@ -1,0 +1,58 @@
+generated: '2026-10-14'
+edges:
+- partner_name: Hightouch
+  partner: hightouch
+  partner_match: aggregator
+  marketplace: coverage
+  channel: partner-built
+  direction: partner-built
+  type: coverage
+  relationship: connector-coverage
+  evidence: https://hightouch.com/docs/destinations/postgres
+  coverage_role:
+  - destination
+  - source
+  cdp_signals:
+    destination:
+      catalog_entries:
+      - postgres
+      status: released
+      sync_types:
+      - Any data set
+      sync_modes:
+      - insert
+      - upsert
+    source:
+      catalog_entries:
+      - postgresql
+      status: released
+  detected_by: sweep-cdp.py
+  first_seen: '2026-10-14'
+- partner_name: Census
+  partner: getcensus
+  partner_match: aggregator
+  marketplace: coverage
+  channel: partner-built
+  direction: partner-built
+  type: coverage
+  relationship: connector-coverage
+  evidence: https://fivetran.com/docs/activations/destinations/available-destinations/postgres
+  coverage_role:
+  - destination
+  cdp_signals:
+    destination:
+      catalog_entries:
+      - postgres
+      sync_behaviours:
+      - mirror
+      - update only
+      - update or create
+  detected_by: sweep-cdp.py
+  first_seen: '2026-10-14'
+method: searched
+checked:
+- https://fivetran.com/docs/activations/destinations/available-destinations/postgres
+- https://hightouch.com/docs/destinations/postgres
+source:
+- https://fivetran.com/docs/activations/destinations/available-destinations/postgres
+- https://hightouch.com/docs/destinations/postgres
