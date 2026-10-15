@@ -117,7 +117,7 @@
     app_slug: postgresql
     beta: false
     builder: unknown (not in the directory record)
-  status: pending-partner-spec
+  status: not-a-workflow
   arazzo: null
 - slug: postgresql-n8n
   label: n8n
@@ -142,5 +142,5 @@
     node_path: Postgres
     trigger: true
     builder: n8n (built-in node)
-  status: pending-partner-spec
+  status: not-a-workflow
   arazzo: null
