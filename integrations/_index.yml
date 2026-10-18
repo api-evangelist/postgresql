@@ -183,7 +183,7 @@
       type: source
       lapsed: false
       cloud: true
-  status: pending-partner-spec
+  status: not-a-workflow
   arazzo: null
 - slug: postgresql-fivetran
   label: Fivetran
@@ -209,7 +209,7 @@
     - connectors/databases/postgresql
     vendor_link: https://www.postgresql.org/
     builder: Fivetran
-  status: pending-partner-spec
+  status: not-a-workflow
   arazzo: null
 - slug: postgresql-meltano
   label: Meltano
@@ -246,5 +246,5 @@
     - gold
     - silver
     builder: 'community (Meltano Hub variant maintainers: airbyte, datamill-co, meltano, meltanolabs, transferwise)'
-  status: pending-partner-spec
+  status: not-a-workflow
   arazzo: null
