@@ -248,3 +248,41 @@
     builder: n8n (built-in node)
   status: not-a-workflow
   arazzo: null
+- slug: postgresql-cve-program-cve-numbering-authorities
+  label: CVE Program (CVE Numbering Authorities)
+  partner_name: CVE Program (CVE Numbering Authorities)
+  category: Vulnerability disclosure (CVE Numbering Authority)
+  type: register
+  channel: standard-directory
+  evidence: https://www.cve.org/PartnerInformation/ListofPartners/partner/PostgreSQL
+  source: edge
+  relationship: standard-participant
+  contract_reference:
+    register: CVE Program CNA list (github.com/CVEProject/cve-website CNAsList.json @ 239d3d9b68e0)
+    standard: CVE Program CNA Operational Rules (CVE Numbering Authority)
+    spec_file: null
+    role: cve-numbering-authority
+    registered_name: PostgreSQL
+    matched_domain: postgresql.org
+    matched_by: domain
+    cna_id: CNA-2024-0005
+    cna_short_name: PostgreSQL
+    cna_types:
+    - Open Source
+    cna_roles:
+    - CNA
+    scope: <a href='https://www.postgresql.org/download/' target='_blank'>postgresql.org/download</a> software and
+      related projects listed at <a href='https://www.postgresql.org/support/security/' target='_blank'>postgresql.org/support/security</a>.
+    top_level_root: MITRE Corporation
+    root: Red Hat, Inc.
+    security_advisories:
+    - https://www.postgresql.org/support/security/
+    disclosure_policy:
+    - https://www.postgresql.org/support/security/
+    country: Canada
+    signal_note: listing as a CVE Numbering Authority = participation (a public commitment to assign CVE IDs and
+      publish advisories for its scope); never a count of CVEs
+    detected_by: sweep-vulnerability-disclosure-cna.py
+    detected: '2026-10-22'
+  status: not-a-workflow
+  arazzo: null
