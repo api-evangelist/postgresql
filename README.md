@@ -1,4 +1,4 @@
-# PostgreSQL (postgresql)
+# PostgreSQL
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,46 +66,112 @@
 
 PostgreSQL is a powerful, open-source object-relational database system with over 35 years of active development. It provides advanced SQL compliance, ACID transactions, and extensibility. PostgreSQL exposes a binary wire protocol via libpq and language bindings rather than a public HTTP REST API, so there is no canonical OpenAPI specification. HTTP access is typically layered on top via PostgREST, Hasura, or application code.
 
-**URL:** [Visit APIs.json URL](https://raw.githubusercontent.com/api-evangelist/postgresql/refs/heads/main/apis.yml)
+**Areas:** Database · Open Source · Relational Database · SQL
 
-## Scope
+## PostgreSQL on APIs.io
 
-- **Type:** Index
+Everything profiled for PostgreSQL is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/postgresql/](https://apis.io/providers/postgresql/)** — or go straight to one of the APIs or properties below.
 
-## Tags:
+### APIs (5)
 
- - Database, Open Source, Relational Database, SQL
+- [PostgreSQL](https://apis.io/apis/postgresql/postgresql/) — Open-source relational database with advanced SQL compliance and extensibility. Client libraries available in many languages.
+- [PostgreSQL Wire Protocol](https://apis.io/apis/postgresql/wire-protocol/) — The PostgreSQL frontend/backend protocol is the low-level message-based protocol used by all client drivers (libpq, JDBC, ODBC, psycopg, pgx, node-postgres,…
+- [libpq C Client Library](https://apis.io/apis/postgresql/libpq/) — libpq is the official C application programmer's interface to PostgreSQL and the underlying library used by most other PostgreSQL client interfaces. It…
+- [PostgreSQL JDBC Driver](https://apis.io/apis/postgresql/jdbc/) — The official Type 4 JDBC driver for PostgreSQL enables Java applications to connect to PostgreSQL using the standard JDBC API. It supports connection…
+- [PostgreSQL ODBC Driver (psqlODBC)](https://apis.io/apis/postgresql/odbc/) — The official ODBC driver for PostgreSQL providing Open Database Connectivity for Windows, Linux, and macOS applications including Microsoft Office, Tableau,…
 
-## Timestamps
+### Published properties
 
-- **Created:** 2026-03-16
-- **Modified:** 2026-04-28
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### GraphQL (1)
 
-### PostgreSQL
-Open-source relational database with advanced SQL compliance and extensibility. Client libraries available in many languages. PostgreSQL itself does not provide a REST/HTTP API or OpenAPI specification; access is via the binary wire protocol.
+GraphQL schemas.
 
-**Human URL:** [https://www.postgresql.org/](https://www.postgresql.org/)
+- [Moved to /providers/postgresql/](https://apis.io/graphqls/postgresql/postgres-graphql/)
 
-#### Tags:
+#### Security (1)
 
- - Database, SQL
+Authentication, trust centre, and vulnerability disclosure.
 
-#### Properties
+- [Postgresql Domain Security](https://apis.io/security/postgresql/postgresql-domain-security/)
 
-- [Documentation](https://www.postgresql.org/docs/)
-- [Getting Started](https://www.postgresql.org/docs/current/tutorial.html)
+#### Plans and pricing (1)
 
-## Common Properties
+Published plans, tiers and prices.
+
+- [Postgresql Plans Pricing](https://apis.io/plans/postgresql/postgresql-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Postgresql Rate Limits](https://apis.io/rate-limits/postgresql/postgresql-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Postgresql Finops](https://apis.io/finops/postgresql/postgresql-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.postgresql.org/)
 - [Documentation](https://www.postgresql.org/docs/)
-- [Community](https://www.postgresql.org/community/)
-- [GitHub Organization](https://github.com/postgres/postgres)
+- [Blog](https://www.postgresql.org/news.rss)
+- [GitHub](https://github.com/postgres/postgres)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
+**Kin Score 12.2** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-**Email:** kin@apievangelist.com
+| Facet | Score |
+|---|---|
+| Discoverability | 53.6 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 10.5 |
+| Developer ergonomics | 26.2 |
+| Access clarity | 7.9 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/postgresql/](https://apis.io/providers/postgresql/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for PostgreSQL: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/postgresql/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
